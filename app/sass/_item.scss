@@ -1,0 +1,19 @@
+.itemWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.itemName {
+  padding: 10px 0;
+}
+
+.itemPicture {
+  width: 200px;
+  height: 200px;
+
+  img {
+    height: 100%;
+  }
+}

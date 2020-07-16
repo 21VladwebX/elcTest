@@ -1,0 +1,35 @@
+/**
+ * This is the central home page
+ *
+ */
+section#home {
+
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    top: 0; left: 0;
+    padding: 100px 20px 0;
+    background-image: url('/img/header.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+
+    div.content {
+        max-width: $siteWidth;
+        margin: 0 auto;
+        color: #FFF;
+
+        p {
+            text-align: center;
+            margin: 1rem 0 2rem 0;
+            font-size: 30px;
+        }
+    }
+
+    div.wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 400px);
+        grid-template-rows: auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
