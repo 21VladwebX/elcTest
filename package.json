@@ -51,7 +51,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "uglify-js": "3.2.2",
-    "webpack": "3.10.0",
+    "webpack": "5.94.0",
     "webpack-stream": "4.0.0"
   }
 }
